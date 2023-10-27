@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 8, 51, 0.7), rgba(0, 8, 51, 0.7)),
+    url(/machome/background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper {
+  width: 100%;
+  padding-block: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar {
+  width: 65%;
+  margin-left: 3%;
+  margin-right: 1.5%;
+  background-color: rgb(60, 60, 60);
+  opacity: 0.9;
+  padding-block: 15px;
+  padding-inline: 20px;
+  border-radius: 10px;
+}
+
+.search-input {
+  font-size: 20px;
+  width: 100%;
+  background-color: rgb(60, 60, 60);
+  opacity: 0.9;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.search-input::placeholder {
+  font-style: italic;
+}
+
+.go {
+  display: none;
+}
+
+.tool-bar {
+  margin-left: 1.5%;
+  margin-right: 3%;
+  width: 36%;
+  background-color: rgb(60, 60, 60);
+  opacity: 0.9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-block: 15px;
+  padding-inline: 20px;
+}
+
+.app {
+  font-size: 20px;
+  margin-inline: 5%;
+  color: white;
+  text-decoration: none;
+}
+
+.app:hover {
+  text-decoration: underline;
+}
+
+.quick-links {
+  background-color: rgb(60, 60, 60);
+  opacity: 0.9;
+  width: 94%;
+  margin-inline: 3%;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-block: 15px;
+  padding-inline: 20px;
+}
+
+.link {
+  display: block;
+  padding-block: 15px;
+  padding-inline: 2px;
+  margin-inline: 2.5%;
+  font-size: 20px;
+  color: white;
+  width: 15%;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.link img {
+  width: 55%;
+  margin-inline: 22.5%;
+}
+
+.time:first-child {
+  margin-left: 3%;
+  margin-right: 1.5%;
+}
+
+.time {
+  background-color: rgb(60, 60, 60);
+  opacity: 0.9;
+  width: 21.25%;
+  margin-inline: 1.5%;
+  border-radius: 10px;
+  color: white;
+  padding-block: 15px;
+  padding-inline: 20px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.tasks,
+.notes {
+  height: 45vh;
+}
+
+.layer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 45vh;
+}
+
+.layer2 {
+  display: flex;
+  flex-direction: row;
+  height: 22.5vh;
+}
+
+.layer2:first-child {
+  padding-bottom: 5px;
+}
+
+.layer2:last-child {
+  padding-top: 5px;
+}
+
+.time2:first-child {
+  margin-left: 6%;
+  margin-right: 3%;
+}
+
+.time2 {
+  background-color: rgb(60, 60, 60);
+  opacity: 0.9;
+  width: 42.5%;
+  margin-inline: 3%;
+  border-radius: 10px;
+  color: white;
+  padding-block: 15px;
+  padding-inline: 20px;
+  font-size: 20px;
+}
